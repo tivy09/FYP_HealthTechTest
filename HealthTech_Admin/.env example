@@ -1,0 +1,14 @@
+
+REACT_APP_BASE_URL=https://v2.techworlds.com.my/api/v1
+REACT_APP_ASSET_URL=https://v2.techworlds.com.my
+
+REACT_APP_MENUWORLD_WEBSITE=https://menuworlds.com/
+
+REACT_APP_AUTH0_CLIENT_ID=Tm8TYBYO1QpmerL9LE3Jjgop0frbxaJktrekmOfx
+
+REACT_APP_API_KEY_1= MenuworldsV2ZXCV
+REACT_APP_API_KEY_2= QWERMenuworldsV2
+
+REACT_APP_GOOGLE=AIzaSyCRtunBn7rBKwjKqH_HNUDSu9Ay5V5jGO4
+
+REACT_APP_CLIENT_ID=4

@@ -1,0 +1,91 @@
+ion-modal.example-modal {
+  --height: 50%;
+  --width: 85%;
+  --border-radius: 16px;
+  --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+ion-modal.example-modal::part(backdrop) {
+  background: rgba(209, 213, 219);
+  opacity: 100;
+}
+
+ion-modal.example-modal ion-toolbar {
+  --background: rgb(14 116 144);
+  --color: white;
+}
+
+ion-modal.profile-modal {
+  --height: 85%;
+  --width: 85%;
+  --border-radius: 16px;
+  --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+ion-modal.profile-modal::part(backdrop) {
+  background: rgba(209, 213, 219);
+  opacity: 100;
+}
+
+ion-modal.profile-modal ion-toolbar {
+  --background: rgb(14 116 144);
+}
+
+.segment-label {
+  padding: 6px 10px;
+  border-radius: 15px;
+  background-color: #ff6347; 
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.name-label{
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.custom-label {
+    position: relative; /* Enable relative positioning for the custom label container */
+    display: inline-block;
+  }
+  
+  .custom-badge {
+    position:fixed;
+    /* bottom: 0; Position the badge at the bottom of the custom label container */
+    /* right: 0; Position the badge at the top-right corner of the custom label container */
+    /* padding: 5px 6px; */
+    /* padding-top: 4%; */
+    /* background-color: #ff6347; Customize the background color for the badge */
+    color: black; /* Customize the text color for the badge */
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  
+
+  /* styles.css */
+
+.image-container {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  /* position: relative;
+  display: inline-block;Hide any content that overflows the container (optional) */
+}
+
+.round-image {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.custom-card{
+  background-color: color #257cff; ;
+}
+  
+

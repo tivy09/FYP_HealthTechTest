@@ -1,0 +1,23 @@
+.small-btn-modal {
+    align-items: flex-end;
+    --border-radius: 25px 25px 0 0 !important;
+    --backdrop-opacity: 0.4;
+  
+    ion-backdrop {
+      z-index: 10;
+    }
+  
+    & > .modal-wrapper {
+      --min-height: 280px;
+      --height: auto;
+      // box-shadow: 7px 7px 30px rgba(0,0,0,.125);
+    }
+  
+    & > div .ion-page {
+      z-index: 99 !important;
+      padding: 0.5em 1em !important;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
+}
